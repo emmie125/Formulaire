@@ -1,0 +1,179 @@
+body{
+    margin: 0 auto; 
+    background-image: linear-gradient(to bottom right,#7dc2ee,#9a86e4);
+    background-repeat: no-repeat;
+   
+}
+.fom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 86vw;
+    height: 80vh;
+    margin-top: 10vh ;
+    margin-bottom: 10vh ;
+    margin-left: 6.5vw;
+    margin-right: 6vw;
+   
+
+
+}
+.general{
+    padding: 2% 2%;
+    width: 45%;
+    height: 80vh;
+    border:1px solid white;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    background-color: white;
+
+}
+.contact{
+    padding: 2% 2%;
+    width: 45%;
+    height: 80vh;
+    border:1px solid #4935d4;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: #4935d4;
+}
+.general input , .general select{
+    border: transparent;
+    background-color: transparent;
+    border-bottom: 1px solid  rgb(114, 116, 117);   
+    color: rgb(114, 116, 117);
+    padding: 2%;
+    
+}
+.contact input , .contact select{
+    border: transparent;
+    background-color: transparent;
+    border-bottom: 1px solid white;   
+    color: white;
+    padding: 2%;
+    
+}
+.general input::placeholder{
+    color: rgb(114, 116, 117);
+    opacity: 1;
+}
+.contact input::placeholder
+{
+    color:white;  
+    opacity: 1;
+}
+.general input:focus , .general select:focus
+{
+   outline:none;  
+}
+.contact input:focus , .contact select:focus
+{ 
+    outline: none; 
+}
+.alignement{
+    display: flex;
+    justify-content: space-between;
+}
+.identite{
+    width: 40%;
+}
+
+input,select{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.bus{
+    width: 53%;
+}
+.emploi{
+    width: 40%;
+}
+select{
+    width: 96%;
+}
+input{
+    width: 92%;
+}
+.titre
+{
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom:0 ;
+}
+.zip
+{
+    width: 25%;
+}
+.place
+{
+    width: 60%;
+}
+.code
+{
+    width: 25%;
+}
+.tel
+{
+    width: 60%;
+}
+#idradio{
+    width: 0%;
+    
+}
+label
+{
+    color: white;
+    font-size: 14px; 
+}
+
+ a label
+ {
+    
+    margin-left: 10px;
+}
+a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+#radio{
+    
+        width: 15px;
+        height: 15px;
+        border: 2px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    /* cursor: pointer; */
+}
+#idradio{
+    display: none;
+}
+.spradio
+{
+    width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  border-radius: 50%;
+  background-color:white;
+  opacity: 1;
+  display: inline-block;
+}
+.rd{
+    display: flex;
+    margin: 15px 0px;
+}
+#btn
+{
+    border: solid 1px white;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 40%;
+}

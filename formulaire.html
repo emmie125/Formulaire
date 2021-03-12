@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulaire</title>
+</head>
+<body>
+    <form action="get">
+        <div class="fom">
+
+            <div class="general">
+                <h1 class="titre">General information</h1>    
+                <select name="titre" id=""  class="structure">
+                    <option value="Title" id="idTitle" disabled selected hidden>Title</option>
+                    
+                </select>   
+                    <div class="alignement">
+                        <input type="text" placeholder="First name" class="identite">
+                        <input type="text" placeholder="Last Name" id="LastName" class="identite">
+                    </div>
+                   <div>
+                    <select name="position" id="position" class="structure" >
+                        <option value="Position" id="idPosition" disabled selected hidden>Position</option>
+                    </select>
+                   </div>
+                   <div>
+                    <input type="text" placeholder="Company" id="Company"class="structure" >
+
+                   </div>
+                    
+                    <div class="alignement">
+                        <input type="text" placeholder="Business Arena" id="businessarea" class="bus">
+                        <select name="emploi" class="emploi" >
+                            <option value="employees"disabled selected hidden>Employees</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="contact">
+                <h1 class="titre">Contact Details</h1>
+                <div >
+                    <input type="text" placeholder="Street + Nr" id="streetnr" class="structure">
+                </div>
+                <div >
+                    <input type="text" placeholder="Additional Information" class="structure">
+                </div>
+                <div class="alignement">
+                    <input type="text" placeholder="Zip code" class="zip">
+                    <select name="place" id="place" class="place" >
+                        <option value="" disabled selected hidden>Place</option>
+                        <option value="" >Place</option>
+                        <option value="" >Place</option>
+                    </select>
+                </div>
+                <div >
+                    <select name="country" id="country"  class="structure">
+                        <option value=""disabled selected hidden>Country</option>
+                    </select>  
+                </div>
+                <div class="alignement">
+                    <input type="text" placeholder="code +" class="code" >
+                    <input type="tel" placeholder="Phone Number" class="tel">
+                </div>
+                <div >
+                    <input type="email" placeholder="Your Email" class="structure" > 
+                </div>
+                <div class="rd">
+                    <label id="radio">
+                        <input type="radio" value="" id="idradio">       
+                        <span class="spradio"> </span>
+                    </label>
+                    <label>I do accept the <a href="#">Terms and Conditions </a> of your site</label> 
+                </div>
+                  <div class="btn">
+                    <input type="submit" value="Register Badge" id="btn">  
+
+                  </div>  
+                    
+            </div>
+        </div>
+    </form>
+</body>
+</html>
